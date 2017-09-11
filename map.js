@@ -21,7 +21,7 @@
 
       infowindow = new google.maps.InfoWindow();
 
-      // Call the Places API Web Service
+    // Call the Places API Web Service
     var service = new google.maps.places.PlacesService(map);
 
     // Initiate Radar Search
@@ -32,3 +32,4 @@
     }, callback);
 
 }
+// console.log(google.maps.places.PlacesServiceStatus);
